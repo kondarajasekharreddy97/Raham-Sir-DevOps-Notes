@@ -146,6 +146,8 @@ ansible all -m user -a "name=rajinikanth state=absent"
 ansible all -m copy -a "src=app.yml dest=/root"
 ansible all -a "ls /root"
 
+app.yml is a text file which  contains the properties of application
+
 PLAYBOOKS:
 playbook is a collection of modules.
 we can execute multiple modules at same time.
