@@ -58,6 +58,9 @@ vim /etc/ansible/hosts (12)
 172.31.36.39
 172.31.43.36
 
+
+To know the Private IP Address: #hostname -i
+
 ssh-keygen #used to generate the keys 
 enter 4 times
 ssh-copy-id root@private-ip  -- > yes -- > password
