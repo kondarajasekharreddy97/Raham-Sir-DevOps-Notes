@@ -422,6 +422,8 @@ LOOPS:
 #cd .ssh
 #cat knownhosts:To see list of Host nodes connected with control node(Ansible Server) 
 
+setup module will print the complete information of the Host node 
+
 
 TROUBLESHOOTING:
 ansible all -m setup | grep -i cpus
