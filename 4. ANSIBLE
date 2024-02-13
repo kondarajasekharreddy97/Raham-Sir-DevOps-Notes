@@ -419,6 +419,9 @@ LOOPS:
         - nikitha
         - sadekaa
 
+#cd .ssh
+#cat knownhosts:To see list of Host nodes connected with control node(Ansible Server) 
+
 
 TROUBLESHOOTING:
 ansible all -m setup | grep -i cpus
